@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    background: #e5e9f2;
+    text-decoration: none;
+    margin: 5em;
+
+
+}
+ul li {
+    font-size: 18px;
+    font-weight: 400;
+}
+p{
+    font-weight: 100;
+    font-size: 16px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+align-items: flex-end;
+padding: 1em;
+
+position: absolute;
+width: 90em;
+height: 3em;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(269.32deg, #EA7A3B -35.65%, #3B42EA 64.81%);
+box-shadow: 0px 3px 22px rgba(0, 0, 0, 0.25);
+
+text-transform: uppercase;
+color: white;
+}
+nav a {
+    padding: 1em;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+    font-weight: 400;
+}
+a:visited{
+    color: whitesmoke;
+    font-weight: 800px;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+.principal{
+    display: flex;
+    justify-content: center;
+}
+.principal img {
+     width: 7em;
+     height: 7em;
+     border-radius: 100%;
+     margin-top:3em;
+     padding: 5em;
+
+}
+
+.contacto img {
+    width: 1em;
+    padding-right: 00.5em;
+}
+
+ul {
+    list-style-type: none;
+}
+section {
+       width: 70em;
+}
+aside {
+    background-color:#D8D6D6;
+    margin-left: 0em;
+    
+    ;
+}
+
+nav img {
+    width: 2em;
+    padding-right: 0.5em;
+}
+
+h1{
+    color: #3B42EA;
+    font-size: 48px;
+    font-weight: 300;
+    padding: 2em;
+    margin-top: 1em;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    color: #EA7A3B;
+}
